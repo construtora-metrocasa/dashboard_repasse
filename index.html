@@ -98,6 +98,8 @@
     <iframe src="https://app.powerbi.com/view?r=eyJrIjoiOTRiZTlkODUtZGMwYi00Nzc1LWI1Y2ItMWY5OTg4ZjBjYTU1IiwidCI6ImM3NGViY2JkLWE4MGYtNDYwYy1hMDUzLTEwZDViNmY1ZWQwNSJ9" title="Dashboard"></iframe>
     <!-- Página 2 -->
     <iframe src="https://app.powerbi.com/view?r=eyJrIjoiZWJmZWRmYWEtODk5Ni00MWVjLWFhMzUtMDBhZWUzZTdlNTg1IiwidCI6ImM3NGViY2JkLWE4MGYtNDYwYy1hMDUzLTEwZDViNmY1ZWQwNSJ9" title="Filtro Geral"></iframe>
+    <!-- Página 3 -->
+    <iframe src="https://app.powerbi.com/view?r=eyJrIjoiZDAzMWY5OWUtYzhiOC00OWY3LWJlMmQtYTAzODQ4NTBhNmJkIiwidCI6ImM3NGViY2JkLWE4MGYtNDYwYy1hMDUzLTEwZDViNmY1ZWQwNSJ9" title="Filtro Geral"></iframe>
   </div>
 
   <!-- Botões -->
@@ -108,6 +110,9 @@
   <div class="indicators" id="indicators"></div>
 
   <script>
+
+    setTimeout(function () {location.reload();}, 300000); // 300000 ms = 5 minutos
+    
     const container = document.getElementById("container");
     const nextBtn = document.getElementById("nextBtn");
     const prevBtn = document.getElementById("prevBtn");
@@ -171,3 +176,4 @@
 
 </body>
 </html>
+
